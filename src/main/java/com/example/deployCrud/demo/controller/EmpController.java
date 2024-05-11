@@ -9,7 +9,7 @@ import java.util.List;
 public class EmpController {
 @GetMapping
 public String open(){
-    return "fdlsakjflksdaj";
+    return "Hello Rafiul Abeer Khan. Congrats on your first deploy";
 }
     //Get
     @GetMapping("/{id}")
