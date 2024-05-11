@@ -5,9 +5,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("emp")
+@RequestMapping("/emp")
 public class EmpController {
-
+@GetMapping
+public String open(){
+    return "fdlsakjflksdaj";
+}
     //Get
     @GetMapping("/{id}")
     public String getEmployeeById(){
